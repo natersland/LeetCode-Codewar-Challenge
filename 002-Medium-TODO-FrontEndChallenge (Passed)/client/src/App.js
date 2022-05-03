@@ -15,7 +15,7 @@ export default function App() {
     const temp = [...todos, inputText];
     // ไม่สามารถที่จะเพิ่ม Todo ที่มีตัวอักษรซ้ำกันลงไปใน Todo list ได้
     let i = 0;
-    while (i < temp.length) {
+    while (i <= todos.length) {
       if (inputText !== todos[i]) {
         setTodos(temp);
         // หลังจากคลิกปุ่ม “Add” แล้วจะต้อง Clear Input Text
