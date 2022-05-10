@@ -35,3 +35,4 @@ const lengthOfLastWord2 = (str) => {
 };
 
 lengthOfLastWord2(" go  go bye     bye  world  ");
+

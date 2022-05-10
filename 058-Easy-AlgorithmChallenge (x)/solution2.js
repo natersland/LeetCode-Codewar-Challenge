@@ -5,7 +5,7 @@ const lengthOfLastWord = (s) => {
     return char !== "";
   });
   const result = filteredWord[filteredWord.length - 1].length;
-
+  
   return result;
 };
 
